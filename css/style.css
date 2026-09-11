@@ -1,0 +1,87 @@
+/* Global Reset & Box Model */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header & Flexbox Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Layout & Sections */
+.section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form, #search-input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
