@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Developer Portfolio & Task Manager</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio & Task Manager</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-  <!-- Header & Navigation Section -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">DevHub</div>
-      <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#tasks">Task Manager</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Header & Navigation Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">DevHub</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#tasks">Task Manager</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Main Content Section -->
-  <main>
-    <!-- About Section -->
-    <section id="about" class="section">
-      <h2>Web Development Final Project</h2>
-      <p>This project was developed as part of a 6-week web development internship using HTML, CSS, and JavaScript.</p>
-    </section>
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>Web Development Final Project</h2>
+            <img src="assets/images/banner.jpg" alt="Web Development Project" class="project-img">
+            <p>This project was developed as part of a 6-week web development internship using HTML, CSS, and
+                JavaScript.</p>
+        </section>
 
-    <!-- Task Manager Section (JavaScript Interactivity) -->
-    <section id="tasks" class="section">
-      <h2>Interactive Task Tracker</h2>
-      
-      <!-- Input Form -->
-      <form id="task-form">
-        <input type="text" id="task-input" placeholder="Enter a new task..." required>
-        <button type="submit">Add Task</button>
-      </form>
+        <!-- Task Manager Section (JavaScript Interactivity) -->
+        <section id="tasks" class="section">
+            <h2>Interactive Task Tracker</h2>
 
-      <!-- Search Filter -->
-      <input type="text" id="search-input" placeholder="Search tasks...">
+            <!-- Input Form -->
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Enter a new task..." required>
+                <button type="submit">Add Task</button>
+            </form>
 
-      <!-- Dynamic Task List -->
-      <ul id="task-list"></ul>
-    </section>
-  </main>
+            <!-- Search Filter -->
+            <input type="text" id="search-input" placeholder="Search tasks...">
 
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2026 Web Development Final Project. All Rights Reserved.</p>
-  </footer>
+            <!-- Dynamic Task List -->
+            <ul id="task-list"></ul>
+        </section>
+    </main>
 
-  <script src="js/main.js"></script>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Web Development Final Project. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
